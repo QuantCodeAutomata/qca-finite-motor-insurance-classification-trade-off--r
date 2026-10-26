@@ -1,0 +1,1882 @@
+{
+  "exp": "exp_2",
+  "merge_verification": {
+    "merge_steps": [
+      {
+        "description": "C\u2078: merge classes 0,1 \u2192 adjacent lowest pair",
+        "class_a": 0,
+        "class_b": 1,
+        "delta_L_direct": 0.9264761904761903,
+        "delta_L_formula": 0.9264761904761905,
+        "delta_Gamma_direct": 0.0017543859649123,
+        "delta_Gamma_formula": 0.0017543859649122788,
+        "L_ok": true,
+        "Gamma_ok": true,
+        "L_residual": 1.1102230246251565e-16,
+        "Gamma_residual": 2.1250362580715887e-17
+      },
+      {
+        "description": "C\u2078: merge classes 2,3",
+        "class_a": 2,
+        "class_b": 3,
+        "delta_L_direct": 1.1586206896551725,
+        "delta_L_formula": 1.1586206896551723,
+        "delta_Gamma_direct": 0.0018529465426017216,
+        "delta_Gamma_formula": 0.001852946542601713,
+        "L_ok": true,
+        "Gamma_ok": true,
+        "L_residual": 2.220446049250313e-16,
+        "Gamma_residual": 8.673617379884035e-18
+      },
+      {
+        "description": "C\u2078: merge classes 4,5",
+        "class_a": 4,
+        "class_b": 5,
+        "delta_L_direct": 1.1174603174603175,
+        "delta_L_formula": 1.1174603174603173,
+        "delta_Gamma_direct": 0.0027373737373737467,
+        "delta_Gamma_formula": 0.0027373737373737367,
+        "L_ok": true,
+        "Gamma_ok": true,
+        "L_residual": 2.220446049250313e-16,
+        "Gamma_residual": 9.974659986866641e-18
+      },
+      {
+        "description": "C\u2078: merge classes 6,7",
+        "class_a": 6,
+        "class_b": 7,
+        "delta_L_direct": 0.768361581920904,
+        "delta_L_formula": 0.768361581920904,
+        "delta_Gamma_direct": 0.0021569956796277656,
+        "delta_Gamma_formula": 0.002156995679627783,
+        "L_ok": true,
+        "Gamma_ok": true,
+        "L_residual": 0.0,
+        "Gamma_residual": 1.734723475976807e-17
+      },
+      {
+        "description": "C\u2074: merge classes 0,1 \u2192 C\u00b3-like first step",
+        "class_a": 0,
+        "class_b": 1,
+        "delta_L_direct": 8.064542185686047,
+        "delta_L_formula": 8.064542185686008,
+        "delta_Gamma_direct": 0.022207579861873744,
+        "delta_Gamma_formula": 0.022207579861873723,
+        "L_ok": true,
+        "Gamma_ok": true,
+        "L_residual": 3.907985046680551e-14,
+        "Gamma_residual": 2.0816681711721685e-17
+      },
+      {
+        "description": "C\u2074: merge classes 1,2",
+        "class_a": 1,
+        "class_b": 2,
+        "delta_L_direct": 8.746764996783146,
+        "delta_L_formula": 8.746764996783162,
+        "delta_Gamma_direct": 0.010022854070040998,
+        "delta_Gamma_formula": 0.010022854070041004,
+        "L_ok": true,
+        "Gamma_ok": true,
+        "L_residual": 1.5987211554602254e-14,
+        "Gamma_residual": 5.204170427930421e-18
+      },
+      {
+        "description": "C\u2074: merge classes 2,3",
+        "class_a": 2,
+        "class_b": 3,
+        "delta_L_direct": 7.010774837215517,
+        "delta_L_formula": 7.010774837215526,
+        "delta_Gamma_direct": 0.017868252275031943,
+        "delta_Gamma_formula": 0.017868252275031943,
+        "L_ok": true,
+        "Gamma_ok": true,
+        "L_residual": 8.881784197001252e-15,
+        "Gamma_residual": 0.0
+      },
+      {
+        "description": "C\u00b3: merge classes 0,1",
+        "class_a": 0,
+        "class_b": 1,
+        "delta_L_direct": 15.299443818893756,
+        "delta_L_formula": 15.29944381889375,
+        "delta_Gamma_direct": 0.026538901266806678,
+        "delta_Gamma_formula": 0.02653890126680669,
+        "L_ok": true,
+        "Gamma_ok": true,
+        "L_residual": 7.105427357601002e-15,
+        "Gamma_residual": 1.3877787807814457e-17
+      },
+      {
+        "description": "C\u00b3: merge classes 1,2",
+        "class_a": 1,
+        "class_b": 2,
+        "delta_L_direct": 13.852142075790173,
+        "delta_L_formula": 13.852142075790205,
+        "delta_Gamma_direct": 0.029248070794807554,
+        "delta_Gamma_formula": 0.02924807079480757,
+        "L_ok": true,
+        "Gamma_ok": true,
+        "L_residual": 3.197442310920451e-14,
+        "Gamma_residual": 1.734723475976807e-17
+      }
+    ],
+    "all_pass": true
+  },
+  "dp_verification": {
+    "lambda_results": {
+      "0.0": {
+        "1": {
+          "feasible": true,
+          "dp_objective": 72.00995555555556,
+          "bf_objective": 72.00995555555556,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "2": {
+          "feasible": true,
+          "dp_objective": 19.046235802414145,
+          "bf_objective": 19.046235802414145,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              3
+            ],
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        "3": {
+          "feasible": true,
+          "dp_objective": 8.43101901843475,
+          "bf_objective": 8.43101901843475,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              7
+            ]
+          ]
+        },
+        "4": {
+          "feasible": true,
+          "dp_objective": 3.9709187795125844,
+          "bf_objective": 3.9709187795125844,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "5": {
+          "feasible": true,
+          "dp_objective": 2.812298089857412,
+          "bf_objective": 2.812298089857412,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "6": {
+          "feasible": true,
+          "dp_objective": 1.6948377723970944,
+          "bf_objective": 1.6948377723970944,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "7": {
+          "feasible": true,
+          "dp_objective": 0.768361581920904,
+          "bf_objective": 0.768361581920904,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "8": {
+          "feasible": true,
+          "dp_objective": 0.0,
+          "bf_objective": 0.0,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ]
+        },
+        "all_match": true
+      },
+      "0.1": {
+        "1": {
+          "feasible": true,
+          "dp_objective": 72.00995555555556,
+          "bf_objective": 72.00995555555556,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "2": {
+          "feasible": true,
+          "dp_objective": 19.052958591302538,
+          "bf_objective": 19.052958591302538,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              3
+            ],
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        "3": {
+          "feasible": true,
+          "dp_objective": 8.440447118320714,
+          "bf_objective": 8.440447118320714,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              7
+            ]
+          ]
+        },
+        "4": {
+          "feasible": true,
+          "dp_objective": 3.9816491516146684,
+          "bf_objective": 3.9816491516146684,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "5": {
+          "feasible": true,
+          "dp_objective": 2.8232137566137565,
+          "bf_objective": 2.8232137566137565,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "6": {
+          "feasible": true,
+          "dp_objective": 1.7060271765271766,
+          "bf_objective": 1.7060271765271766,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "7": {
+          "feasible": true,
+          "dp_objective": 0.7797264246474773,
+          "bf_objective": 0.7797264246474773,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "8": {
+          "feasible": true,
+          "dp_objective": 0.011580542294536103,
+          "bf_objective": 0.011580542294536103,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ]
+        },
+        "all_match": true
+      },
+      "0.25": {
+        "1": {
+          "feasible": true,
+          "dp_objective": 72.00995555555556,
+          "bf_objective": 72.00995555555556,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "2": {
+          "feasible": true,
+          "dp_objective": 19.06304277463513,
+          "bf_objective": 19.06304277463513,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              3
+            ],
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        "3": {
+          "feasible": true,
+          "dp_objective": 8.454589268149663,
+          "bf_objective": 8.454589268149663,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              7
+            ]
+          ]
+        },
+        "4": {
+          "feasible": true,
+          "dp_objective": 3.997744709767796,
+          "bf_objective": 3.997744709767796,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "5": {
+          "feasible": true,
+          "dp_objective": 2.8395872567482736,
+          "bf_objective": 2.8395872567482736,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "6": {
+          "feasible": true,
+          "dp_objective": 1.7228112827222994,
+          "bf_objective": 1.7228112827222994,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "7": {
+          "feasible": true,
+          "dp_objective": 0.7967736887373373,
+          "bf_objective": 0.7967736887373373,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "8": {
+          "feasible": true,
+          "dp_objective": 0.028951355736340254,
+          "bf_objective": 0.028951355736340254,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ]
+        },
+        "all_match": true
+      },
+      "0.5": {
+        "1": {
+          "feasible": true,
+          "dp_objective": 72.00995555555556,
+          "bf_objective": 72.00995555555556,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "2": {
+          "feasible": true,
+          "dp_objective": 19.079849746856112,
+          "bf_objective": 19.079849746856112,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              3
+            ],
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        "3": {
+          "feasible": true,
+          "dp_objective": 8.478159517864576,
+          "bf_objective": 8.478159517864576,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              7
+            ]
+          ]
+        },
+        "4": {
+          "feasible": true,
+          "dp_objective": 4.024570640023007,
+          "bf_objective": 4.024570640023007,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "5": {
+          "feasible": true,
+          "dp_objective": 2.8668764236391353,
+          "bf_objective": 2.8668764236391353,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "6": {
+          "feasible": true,
+          "dp_objective": 1.750784793047505,
+          "bf_objective": 1.750784793047505,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "7": {
+          "feasible": true,
+          "dp_objective": 0.8251857955537706,
+          "bf_objective": 0.8251857955537706,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "8": {
+          "feasible": true,
+          "dp_objective": 0.05790271147268051,
+          "bf_objective": 0.05790271147268051,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ]
+        },
+        "all_match": true
+      },
+      "1.0": {
+        "1": {
+          "feasible": true,
+          "dp_objective": 72.00995555555556,
+          "bf_objective": 72.00995555555556,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "2": {
+          "feasible": true,
+          "dp_objective": 19.113463691298087,
+          "bf_objective": 19.113463691298087,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              3
+            ],
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        "3": {
+          "feasible": true,
+          "dp_objective": 8.5253000172944,
+          "bf_objective": 8.5253000172944,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              7
+            ]
+          ]
+        },
+        "4": {
+          "feasible": true,
+          "dp_objective": 4.07822250053343,
+          "bf_objective": 4.07822250053343,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "5": {
+          "feasible": true,
+          "dp_objective": 2.921454757420859,
+          "bf_objective": 2.921454757420859,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "6": {
+          "feasible": true,
+          "dp_objective": 1.8067318136979154,
+          "bf_objective": 1.8067318136979154,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "7": {
+          "feasible": true,
+          "dp_objective": 0.8820100091866372,
+          "bf_objective": 0.8820100091866372,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "8": {
+          "feasible": true,
+          "dp_objective": 0.11580542294536102,
+          "bf_objective": 0.11580542294536102,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ]
+        },
+        "all_match": true
+      },
+      "2.0": {
+        "1": {
+          "feasible": true,
+          "dp_objective": 72.00995555555556,
+          "bf_objective": 72.00995555555556,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "2": {
+          "feasible": true,
+          "dp_objective": 19.180691580182025,
+          "bf_objective": 19.180691580182025,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              3
+            ],
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        "3": {
+          "feasible": true,
+          "dp_objective": 8.61958101615405,
+          "bf_objective": 8.61958101615405,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              7
+            ]
+          ]
+        },
+        "4": {
+          "feasible": true,
+          "dp_objective": 4.185526221554276,
+          "bf_objective": 4.185526221554276,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "5": {
+          "feasible": true,
+          "dp_objective": 3.0306114249843064,
+          "bf_objective": 3.0306114249843064,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "6": {
+          "feasible": true,
+          "dp_objective": 1.9186258549987363,
+          "bf_objective": 1.9186258549987363,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "7": {
+          "feasible": true,
+          "dp_objective": 0.9956584364523705,
+          "bf_objective": 0.9956584364523705,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "8": {
+          "feasible": true,
+          "dp_objective": 0.23161084589072203,
+          "bf_objective": 0.23161084589072203,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ]
+        },
+        "all_match": true
+      },
+      "5.0": {
+        "1": {
+          "feasible": true,
+          "dp_objective": 72.00995555555556,
+          "bf_objective": 72.00995555555556,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "2": {
+          "feasible": true,
+          "dp_objective": 19.382375246833845,
+          "bf_objective": 19.382375246833845,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              3
+            ],
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        "3": {
+          "feasible": true,
+          "dp_objective": 8.902424012733002,
+          "bf_objective": 8.902424012733002,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              7
+            ]
+          ]
+        },
+        "4": {
+          "feasible": true,
+          "dp_objective": 4.507437384616812,
+          "bf_objective": 4.507437384616812,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "5": {
+          "feasible": true,
+          "dp_objective": 3.358081427674648,
+          "bf_objective": 3.358081427674648,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "6": {
+          "feasible": true,
+          "dp_objective": 2.254307978901199,
+          "bf_objective": 2.254307978901199,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "7": {
+          "feasible": true,
+          "dp_objective": 1.3366037182495702,
+          "bf_objective": 1.3366037182495702,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "8": {
+          "feasible": true,
+          "dp_objective": 0.5790271147268051,
+          "bf_objective": 0.5790271147268051,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ]
+        },
+        "all_match": true
+      },
+      "10.0": {
+        "1": {
+          "feasible": true,
+          "dp_objective": 72.00995555555556,
+          "bf_objective": 72.00995555555556,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "2": {
+          "feasible": true,
+          "dp_objective": 19.718514691253542,
+          "bf_objective": 19.718514691253542,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              3
+            ],
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        "3": {
+          "feasible": true,
+          "dp_objective": 9.373829007031254,
+          "bf_objective": 9.373829007031254,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              7
+            ]
+          ]
+        },
+        "4": {
+          "feasible": true,
+          "dp_objective": 5.04395598972104,
+          "bf_objective": 5.04395598972104,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "5": {
+          "feasible": true,
+          "dp_objective": 3.903864765491884,
+          "bf_objective": 3.903864765491884,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "6": {
+          "feasible": true,
+          "dp_objective": 2.8137781854053037,
+          "bf_objective": 2.8137781854053037,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "7": {
+          "feasible": true,
+          "dp_objective": 1.9048458545782365,
+          "bf_objective": 1.9048458545782365,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        "8": {
+          "feasible": true,
+          "dp_objective": 1.1580542294536103,
+          "bf_objective": 1.1580542294536103,
+          "residual": 0.0,
+          "match": true,
+          "dp_partition": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ]
+        },
+        "all_match": true
+      }
+    },
+    "all_pass": true
+  }
+}
